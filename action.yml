@@ -1,0 +1,8 @@
+name: "my java script action"
+description: "Custom java script action for learning"
+branding:
+  icon: bluetooth
+  color: red
+runs:
+  using: 'node20'
+  main: 'index.js'
