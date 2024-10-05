@@ -1,8 +1,19 @@
-name: "my java script action"
-description: "Custom java script action for learning"
+name: 'my java script action'
+description: 'Custom java script action for learning'
+
 branding:
   icon: bluetooth
   color: red
+
+inputs:
+  who-to-greet:
+    description: 'whom to greet'
+    default: 'world!'
+
+outputs:
+  time:
+  description: 'time at which it ran'
+
 runs:
   using: 'node20'
   main: 'index.js'
